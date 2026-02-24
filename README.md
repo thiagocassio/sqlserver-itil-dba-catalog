@@ -1,3 +1,5 @@
+![SQL Server](https://img.shields.io/badge/SQLServer-ITIL--Catalog-blue)
+
 # sqlserver-itil-dba-catalog
 
 # 📘 Catálogo ITIL para DBA SQL Server
