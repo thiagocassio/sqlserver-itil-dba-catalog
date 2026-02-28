@@ -20,28 +20,28 @@ Incidentes relacionados ao servidor, sistema operacional e storage.
 ### ⚙️ Plataforma SQL Server
 Engine, Alta Disponibilidade e SQL Server Agent.
 
-➡️ [Abrir Plataforma SQL Server](Plataforma/)
+➡️ [Abrir Plataforma SQL Server](Plataforma/README.md)
 
 ---
 
 ### 💾 Dados
 Disponibilidade, Integridade, Transaction Log e Backup/Restore.
 
-➡️ [Abrir Dados](Dados/)
+➡️ [Abrir Dados](Dados/README.md)
 
 ---
 
 ### 🚀 Performance e Concorrência
 Degradação de desempenho, bloqueios e deadlocks.
 
-➡️ [Abrir Performance e Concorrência](Performance/)
+➡️ [Abrir Performance e Concorrência](Performance/README.md)
 
 ---
 
 ### 🔐 Operação e Segurança
 Manutenção, acesso, criptografia e ETL.
 
-➡️ [Abrir Operação e Segurança](Operacao-e-Seguranca/)
+➡️ [Abrir Operação e Segurança](Operacao-e-Seguranca/README.md)
 
 ---
 
