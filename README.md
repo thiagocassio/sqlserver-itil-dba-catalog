@@ -1,34 +1,64 @@
-![SQL Server](https://img.shields.io/badge/SQLServer-ITIL--Catalog-blue)
-
-# sqlserver-itil-dba-catalog
-
 # 📘 Catálogo ITIL para DBA SQL Server
 
 Framework operacional para gestão de incidentes em ambientes Microsoft SQL Server, organizado por categorias técnicas e alinhado com práticas ITIL.
 
 ---
 
-## 🔁 Modelo de Resposta a Incidentes
+## 🧭 Navegação por Categorias
 
-O catálogo está estruturado para apoiar um fluxo de resposta a incidentes em ambientes SQL Server.
+### 🖥️ Infraestrutura
+Incidentes relacionados ao servidor, sistema operacional e storage.
 
-```mermaid
-flowchart TD
+➡️ [Abrir Infraestrutura](Infraestrutura/)
 
-A[Detecção de Incidente] --> B[Triagem]
+---
 
-B --> C{Incidente confirmado?}
+### ⚙️ Plataforma SQL Server
+Engine, Alta Disponibilidade e SQL Server Agent.
 
-C -- Não --> D[Encerrar alerta]
+➡️ [Abrir Plataforma SQL Server](Plataforma/)
 
-C -- Sim --> E[Classificação de Severidade]
+---
 
-E --> F[Diagnóstico Técnico]
+### 💾 Dados
+Disponibilidade, Integridade, Transaction Log e Backup/Restore.
 
-F --> G[Mitigação]
+➡️ [Abrir Dados](Dados/)
 
-G --> H[Monitoramento]
+---
 
-H --> I[Pós-incidente / Análise de causa raiz]
+### 🚀 Performance e Concorrência
+Degradação de desempenho, bloqueios e deadlocks.
 
-I --> J[Atualização do Runbook / Catálogo]
+➡️ [Abrir Performance e Concorrência](Performance/)
+
+---
+
+### 🔐 Operação e Segurança
+Manutenção, acesso, criptografia e ETL.
+
+➡️ [Abrir Operação e Segurança](Operacao-e-Seguranca/)
+
+---
+
+## 🎯 Objetivo do Projeto
+
+Este repositório apresenta um catálogo técnico-operacional voltado para DBAs SQL Server, estruturado como:
+
+- Guia de diagnóstico rápido
+- Runbook operacional
+- Fluxo de incidente alinhado ao ITIL
+
+---
+
+## ⚠️ Observações
+
+- Scripts e exemplos são genéricos.
+- Nenhum dado sensível ou ambiente real é exposto.
+- Ferramentas externas como `sp_whoisactive` são opcionais.
+
+---
+
+## 👨‍💻 Autor
+
+Projeto desenvolvido como estudo estruturado e evolução profissional na área de Administração de Banco de Dados SQL Server.
