@@ -1,3 +1,11 @@
+![SQL Server](https://img.shields.io/badge/SQLServer-ITIL--Catalog-blue)
+
+# sqlserver-itil-dba-catalog
+
+# 📘 Catálogo ITIL para DBA SQL Server
+
+Framework operacional para gestão de incidentes em ambientes Microsoft SQL Server, organizado por categorias técnicas e alinhado com práticas ITIL.
+
 ---
 
 ## 🔁 Modelo de Resposta a Incidentes
