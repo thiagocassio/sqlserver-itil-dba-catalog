@@ -1,68 +1,26 @@
-![SQL Server](https://img.shields.io/badge/SQLServer-ITIL--Catalog-blue)
-
-# sqlserver-itil-dba-catalog
-
-# 📘 Catálogo ITIL para DBA SQL Server
-
-Framework operacional para gestão de incidentes em ambientes Microsoft SQL Server, organizado por categorias técnicas e alinhado com práticas ITIL.
-
 ---
 
-## 🧭 Navegação por Categorias
+## 🔁 Modelo de Resposta a Incidentes
 
-### 🖥️ Infraestrutura
-Incidentes relacionados ao servidor, sistema operacional e storage.
+O catálogo está estruturado para apoiar um fluxo de resposta a incidentes em ambientes SQL Server.
 
-➡️ [Abrir Infraestrutura](Infraestrutura/README.md)
+```mermaid
+flowchart TD
 
----
+A[Detecção de Incidente] --> B[Triagem]
 
-### ⚙️ Plataforma SQL Server
-Engine, Alta Disponibilidade e SQL Server Agent.
+B --> C{Incidente confirmado?}
 
-➡️ [Abrir Plataforma SQL Server](Plataforma/README.md)
+C -- Não --> D[Encerrar alerta]
 
----
+C -- Sim --> E[Classificação de Severidade]
 
-### 💾 Dados
-Disponibilidade, Integridade, Transaction Log e Backup/Restore.
+E --> F[Diagnóstico Técnico]
 
-➡️ [Abrir Dados](Dados/README.md)
+F --> G[Mitigação]
 
----
+G --> H[Monitoramento]
 
-### 🚀 Performance e Concorrência
-Degradação de desempenho, bloqueios e deadlocks.
+H --> I[Pós-incidente / Análise de causa raiz]
 
-➡️ [Abrir Performance e Concorrência](Performance/README.md)
-
----
-
-### 🔐 Operação e Segurança
-Manutenção, acesso, criptografia e ETL.
-
-➡️ [Abrir Operação e Segurança](Operacao-e-Seguranca/README.md)
-
----
-
-## 🎯 Objetivo do Projeto
-
-Este repositório apresenta um catálogo técnico-operacional voltado para DBAs SQL Server, estruturado como:
-
-- Guia de diagnóstico rápido
-- Runbook operacional
-- Fluxo de incidente alinhado ao ITIL
-
----
-
-## ⚠️ Observações
-
-- Scripts e exemplos são genéricos.
-- Nenhum dado sensível ou ambiente real é exposto.
-- Ferramentas externas como `sp_whoisactive` são opcionais.
-
----
-
-## 👨‍💻 Autor
-
-Projeto desenvolvido como estudo estruturado e evolução profissional na área de Administração de Banco de Dados SQL Server.
+I --> J[Atualização do Runbook / Catálogo]
