@@ -9,35 +9,35 @@ Framework operacional para gestão de incidentes em ambientes Microsoft SQL Serv
 ### 🖥️ Infraestrutura
 Incidentes relacionados ao servidor, sistema operacional e storage.
 
-➡️ [Abrir Infraestrutura](1-Infraestrutura/)
+➡️ [Abrir Infraestrutura](01-Infraestrutura/README.md)
 
 ---
 
 ### ⚙️ Plataforma SQL Server
 Engine, Alta Disponibilidade e SQL Server Agent.
 
-➡️ [Abrir Plataforma SQL Server](2-Plataforma/)
+➡️ [Abrir Plataforma SQL Server](02-Plataforma/README.md)
 
 ---
 
 ### 💾 Dados
 Disponibilidade, Integridade, Transaction Log e Backup/Restore.
 
-➡️ [Abrir Dados](3-Dados/)
+➡️ [Abrir Dados](03-Dados/README.md)
 
 ---
 
 ### 🚀 Performance e Concorrência
 Degradação de desempenho, bloqueios e deadlocks.
 
-➡️ [Abrir Performance e Concorrência](4-Performance/)
+➡️ [Abrir Performance e Concorrência](04-Performance/README.md)
 
 ---
 
 ### 🔐 Operação e Segurança
 Manutenção, acesso, criptografia e ETL.
 
-➡️ [Abrir Operação e Segurança](5-Operacao-e-Seguranca/)
+➡️ [Abrir Operação e Segurança](05-Operacao-e-Seguranca/README.md)
 
 ---
 
