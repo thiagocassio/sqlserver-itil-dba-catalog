@@ -1,6 +1,6 @@
 # 🚨 01 – Detecção de Incidente
 
-**Categoria:** Incident Response  
+**Categoria:** Resposta a Incidente  
 **Escopo:** Identificação inicial de problemas em ambientes SQL Server  
 **Objetivo:** Detectar rapidamente sinais de incidentes que possam impactar disponibilidade, desempenho ou integridade do ambiente.
 

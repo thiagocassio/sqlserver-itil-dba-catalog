@@ -1,6 +1,6 @@
 # 🔎 02 – Triagem de Incidente
 
-**Categoria:** Incident Response  
+**Categoria:** Resposta a Incidente  
 **Escopo:** Classificação inicial e validação do incidente  
 **Objetivo:** Confirmar a existência do incidente, avaliar impacto e definir prioridade para investigação.
 

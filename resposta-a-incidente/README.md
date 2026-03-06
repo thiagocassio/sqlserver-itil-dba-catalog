@@ -1,4 +1,4 @@
-# 🚑 Incident Response
+# 🚑 Resposta a Incidente
 
 Esta pasta descreve o fluxo de resposta a incidentes utilizado neste projeto para ambientes SQL Server.
 
