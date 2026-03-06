@@ -1,6 +1,6 @@
 # 🧠 03 – Diagnóstico de Incidente
 
-**Categoria:** Resposta a Incidente 
+**Categoria:** Resposta a Incidente  
 **Escopo:** Investigação técnica do incidente em ambientes SQL Server  
 **Objetivo:** Identificar a causa do problema utilizando métricas, logs e ferramentas de diagnóstico do SQL Server.
 
