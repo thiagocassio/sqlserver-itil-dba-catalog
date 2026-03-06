@@ -1,6 +1,6 @@
 # 📊 05 – Pós-Incidente
 
-**Categoria:** Resposta a Incidente
+**Categoria:** Resposta a Incidente  
 **Escopo:** Análise e melhoria após resolução de incidentes em ambientes SQL Server  
 **Objetivo:** Identificar causa raiz, registrar lições aprendidas e melhorar processos operacionais.
 
