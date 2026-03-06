@@ -1,6 +1,6 @@
 # 🛠️ 04 – Mitigação de Incidente
 
-**Categoria:** Resposta a Incidente
+**Categoria:** Resposta a Incidente  
 **Escopo:** Ações para estabilizar o ambiente SQL Server durante um incidente  
 **Objetivo:** Reduzir o impacto do incidente e restaurar a operação normal do ambiente.
 
