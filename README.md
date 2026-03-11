@@ -55,7 +55,7 @@ Este repositório apresenta um catálogo técnico-operacional voltado para DBAs 
 
 - Scripts e exemplos são genéricos.
 - Nenhum dado sensível ou ambiente real é exposto.
-- Ferramentas externas como `sp_whoisactive` são opcionais.
+- Ferramentas externas como [`sp_whoisactive`](http://whoisactive.com/) são opcionais.
 
 ---
 
